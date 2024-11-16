@@ -1,6 +1,6 @@
-import './banner.css';
+import React from 'react'
 
-function Banner() {
+export const Banner = () => {
   return (
     <div className="banner">
       <img src="/principal/banner3.png" alt="Banner" />
@@ -8,6 +8,6 @@ function Banner() {
         <h2>Agendá ahora!</h2>
       </div>
     </div>
-  );
+  )
 }
 export default Banner;
