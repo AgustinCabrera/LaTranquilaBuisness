@@ -1,4 +1,5 @@
-"use client"; // Ensures client-side rendering
+"use client"; 
+import "./globals.css";
 
 import Link from "next/link";
 
@@ -6,9 +7,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body className="antialiased">
-        {/* Header */}
         <header className="inline-block items-center p-5 bg-white flex items-center p-4" >
-          {/* Logo */}
           <div className="logo">
             <img
               src="/principal/logo1.png"
@@ -16,8 +15,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               className="w-48 h-auto"
             />
           </div>
-
-          {/* Navbar */}
           <nav className="nav bg-white">
             <div className="links flex gap-5">
               <Link
@@ -47,14 +44,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             </div>
           </nav>
         </header>
-
-        {/* Main Content */}
         <main className="flex-grow">{children}</main>
-
-        {/* Footer */}
         <footer className="flex items-center justify-center py-5">
           Footer content here
         </footer>
+        <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+    </div>
       </body>
     </html>
   );
