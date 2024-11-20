@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: ##ededed;
+    --background: #ffffff;
     --foreground: #171717;
   }
 }
@@ -96,7 +96,7 @@
 }
 
 .booking-form button {
-  background-color: #ff8c42;
+  background-color: #7AB2D3;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -105,7 +105,7 @@
 }
 
 .booking-form button:hover {
-  background-color: #e07a35;
+  background-color: #4A628A;
 }
 
 .booking-form select {
@@ -169,7 +169,7 @@ body {
 footer {
   border-top: 1px solid white;
   padding: 2rem 0;
-  background-color: #e07a35;
+  background-color: #4A628A;
   color: #fff;
   font-size: 1rem;
 }
