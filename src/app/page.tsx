@@ -21,11 +21,8 @@ export default function Home() {
       <div className="flex  items-center justify-center ">
 
         <div className="flex flex-col items-center justify-center gap-4 max-w-6xl px-4 sm:flex-row sm:justify-between pb-10 w-screen ">
-          
           {/* Contenedor texto */}
           <div className="w-1/2  text-center sm:text-left  ">
-            
-            
             <p className="text-gray-700 leading-7 px-2 font-[family-name:var(--poppins)] ">
               En La Tranquila, un refugio natural a orillas del Río Paraná,
               desconéctate del estrés diario y sumérgete en la belleza de Aldea
@@ -39,21 +36,13 @@ export default function Home() {
               juego completo de toallas. Aquí, la naturaleza se convierte en tu
               hogar.
             </p>
-
           </div>
-
-
-
           {/* Contenedor título e imagen */}
           <div className="w-1/2 flex flex-col items-center  ">
-
-
             <h1 className="text-2xl mb-4 font-[family-name:var(--poppins)] ">
               La Tranquila: Casa de la Costa
             </h1>
-
             <div className=" max-h-[70vh] overflow-hidden rounded-lg shadow-lg ">
-
               <img
                 src="/home/home.jpg"
                 alt="home"
