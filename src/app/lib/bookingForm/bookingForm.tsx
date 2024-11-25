@@ -26,7 +26,7 @@ export default function BookingForm() {
       <div>
         <select className="border border-gray-300 p-2 rounded-md">
           <option value="" disabled selected hidden>
-            Huéspedes
+            Huéspedessssssssssssssssssssss
           </option>
           {[...Array(10)].map((_, i) => (
             <option key={i} value={i + 1}>

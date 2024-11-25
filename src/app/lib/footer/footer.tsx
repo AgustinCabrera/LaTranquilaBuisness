@@ -18,7 +18,7 @@ const Footer = () => {
     <div className="footer-section">
       <h3>About Us</h3>
       <ul>
-        <li><Link href="/about">Nuestra historia</Link></li>
+        <li><Link href="/pages/localguide">Nuestra historia</Link></li>
         <li><Link href="/sustainability">Guia local</Link></li>
       </ul>
     </div>
@@ -26,9 +26,7 @@ const Footer = () => {
     <div className="footer-section">
       <h3>Follow Us</h3>
       <ul className="social-links">
-        <li><Link href="https://www.instagram.com">Instagram</Link></li>
-        <li><Link href="https://www.twitter.com">Twitter</Link></li>
-        <li><Link href="https://www.facebook.com">Facebook</Link></li>
+        <li><Link href="https://web.facebook.com/p/La-tranquila-casa-de-la-costa-61568326664224/">Facebook</Link></li>
       </ul>
     </div>
   </div>

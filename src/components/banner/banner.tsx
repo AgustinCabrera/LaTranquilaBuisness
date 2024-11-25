@@ -5,7 +5,7 @@ function Banner() {
     <div className="banner">
       <img src="/principal/banner3.png" alt="Banner" />
       <div className="banner-text text-center">
-        <h2>Agendá ahora!</h2>
+        <h2>Bienvenidos!</h2>
       </div>
     </div>
   );

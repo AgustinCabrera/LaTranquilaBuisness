@@ -29,6 +29,12 @@ const Navbar = () => {
         >
           Guía Local
         </Link>
+        <Link
+          href="/pages/rates"
+          className="text-black text-lg no-underline pb-1 border-b-2 border-transparent hover:border-orange-500 transition ease-in-out"
+        >
+          Reseñas
+        </Link>
       </div>
     </div>
   );

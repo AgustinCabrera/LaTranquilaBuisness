@@ -5,6 +5,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --orange: rgb (249 115 22);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -178,7 +179,7 @@ body {
 footer {
   border-top: 1px solid white;
   padding: 2rem 0;
-  background-color: #e07a35;
+  background-color: rgb(249 115 22, green, blue);
   color: #fff;
   font-size: 1rem;
 }

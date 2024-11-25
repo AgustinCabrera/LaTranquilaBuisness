@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontSize: {
+        'icon-sm': '0.75rem', // Tamaño pequeño
+        'icon-lg': '1.5rem',  // Tamaño grande
+      },
     },
   },
   plugins: [],
