@@ -1,8 +1,7 @@
 import React from 'react'
 
-const Rates = () => {
+export default function Rates() {
   return (
     <div>page</div>
   )
 }
-export
