@@ -1,11 +1,12 @@
 "use client"
 
-import Navbar from "./lib/navbar/navbar";
-import Footer from "./lib/footer/footer";
+import Navbar from "../components/navbar/navbar";
+
 import "./globals.css";
 import Head from "next/head";
 import localFont from "next/font/local";
 import "./globals.css";
+import Footer from "@/components/footer";
 
 
 const poppinsFont = localFont({
